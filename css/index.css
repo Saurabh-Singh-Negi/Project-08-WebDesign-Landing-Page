@@ -93,7 +93,6 @@ nav {
   left: 0.5rem;
 }
 
-
 @media screen and (max-width:768px) {
   nav {
     display: flex;
@@ -110,8 +109,13 @@ nav {
 } 
 
 .intro-img {
-  width: 80vh;
+  width: 400px;
   margin: 0;
+  
+}
+
+.vector-dot, .vector-img {
+  display: none;
 }
  
 }
@@ -124,9 +128,30 @@ nav {
   .intro-section {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
   } 
 
+  .vector-dot, .vector-img {
+    display: none;
+  }
+
+  .intro-img {
+    margin-right: 10rem;
+  }
+
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  body {
+    margin: 0;
+  }
 
 }
