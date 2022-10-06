@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../images/backcover.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  font-family: Roboto;
+  height: 90vh;
+  margin: 2rem 6rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  width: 500px;
+  font-size: 18px;
+}
+
+.nav-item {
+  margin-right: 30px;
+  color: #3e4794;
+}
+
+.signin-btn {
+  background: linear-gradient(to right, #9960f2, #ff8adc);
+  /* height: 30px; */
+
+  border: none;
+  border-radius: 10rem;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.1rem 2rem;
+}
+
+.intro-section {
+  display: flex;
+}
+
+.left-section {
+  margin: 9rem 0;
+}
+
+.left-section h4 {
+  color: rgb(102, 101, 101);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  width: 400px;
+}
+
+.left-section h1 {
+  font-size: 4rem;
+  color: #3e4794;
+  margin-bottom: 2rem;
+}
+.learn-more-btn {
+  margin-top: 2rem;
+  background: linear-gradient(to right, #9960f2, #ff8adc);
+  border: 0;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 1rem;
+}
+
+.imgs-div {
+  position: relative;
+}
+
+.imgs-div :nth-child(3) {
+  height: 80vh;
+  margin-left: 10rem;
+}
+
+.vector-dot {
+  position: absolute;
+  bottom: 14rem;
+  left: 4rem;
+}
+.vector-img {
+  position: absolute;
+  bottom: 8.5rem;
+  left: 0.5rem;
+}
