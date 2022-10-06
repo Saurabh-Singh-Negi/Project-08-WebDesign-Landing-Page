@@ -13,6 +13,7 @@ body {
   margin: 2rem 6rem;
 }
 
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -20,12 +21,13 @@ nav {
 
 .nav-items {
   display: flex;
+  gap: 3rem;  
   width: 500px;
   font-size: 18px;
+  align-items: center;
 }
 
 .nav-item {
-  margin-right: 30px;
   color: #3e4794;
 }
 
@@ -89,4 +91,42 @@ nav {
   position: absolute;
   bottom: 8.5rem;
   left: 0.5rem;
+}
+
+
+@media screen and (max-width:768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+
+  
+.signin-btn {
+  width: 150px;
+} 
+
+.intro-img {
+  width: 80vh;
+  margin: 0;
+}
+ 
+}
+
+@media screen and (max-width:1024px){
+  .nav-items {
+    display: none;
+  }     
+
+  .intro-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+  } 
+
+
 }
